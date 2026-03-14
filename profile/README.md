@@ -9,10 +9,9 @@ As we grow, this space will centralize our documentation, contribution guides, a
 ### 👥 Core Team
 
 - **Founders & Lead Developers** – Yuseix, ezShokkoh
-- **Tech Lead & Developer** – KyoSleep
 - **Developer & Community Admin** – Bruno
 
-We also collaborate with contributors, artists, builders, translators, and community members who help shape the DragonMine Z experience.
+We also collaborate with contributors, artists, builders, translators, and community members who help shape the DragonMine Z experience. The full list of contributors can be found in the mod's repository.
 
 ### 🚀 What We’re Working On
 
