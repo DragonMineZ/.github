@@ -114,3 +114,4 @@ jellysanwij
 IkiOreo
 _Tasos_
 Ameaus
+DelosLogic
