@@ -1,11 +1,10 @@
+# Manually added (staff, testers, special cases). The bot never removes these.
 Dev
 ImYuseix
 ezShokkoh
 MrBrunoh
 KyoSleep
 InmortalPx
-LuigiLoudPack
-DodoNoobLORD
 mcFLAVOUR
 __Travis__
 Asahi_Sora
@@ -13,12 +12,10 @@ Gabrielololo
 CyBorghi
 SuhoRimu
 Vanilla_Dyslexic
-CalamityKage
 HyperNovice
 Accelerator
 RemiBuster17
 Werff
-AimlessImp05
 Lekushy
 narukebaransu
 Lucasispedroche
@@ -28,11 +25,25 @@ YosukeHanamura77
 EsePibe01
 xMario2103
 74Emma
-BTRFLI
 DelawareX
 GiovannyV2003d
 ZoneMC
 Ikiba_
+Darkeryr
+BersGamer
+Sinorox_
+Yolteryn
+jannnsi
+Hel4rk
+rksaiya
+Suzushizo
+Trainingloki1233
+# Auto-added by the bot (/beta-access and Patreon gifts). New entries are appended below.
+LuigiLoudPack
+DodoNoobLORD
+CalamityKage
+AimlessImp05
+BTRFLI
 Danny5328
 Vynavo
 Rengar_ZX
@@ -93,17 +104,14 @@ Blankyu
 GrappeJuiice_
 JJJJJJJJJJJJim
 leibart
-Darkeryr
 C1ipp3r
 oneguytwohands
 Dianewz
 BlackFire86
 apengamer500
 MajinSama
-BersGamer
 simon_b_k
 LunaVulpe
-Sinorox_
 teledrama
 Davonte1588
 KevynZ
@@ -136,7 +144,6 @@ Trinity_2JZ
 shaadow136
 The_Fool0
 KiroCraft708
-Yolteryn
 Veoxyz
 darkprocess
 hilay1000
@@ -148,8 +155,6 @@ XxKarmainxX
 benj1021
 Gabe_J_V
 FastZoom54
-jannnsi
-Hel4rk
 Varniher
 Cenoi22
 No_u9647
@@ -181,11 +186,9 @@ Vimundt
 Xes7ia
 GrandElderKami
 Snuitje_
-rksaiya
 lorking9000
 Misticfan9o1
 Cdub06
-Suzushizo
 robaozi
 Wilsom77
 DestroyerHorse
@@ -196,7 +199,6 @@ DamienB09043
 Flashman996
 TheGRuler
 RikuBlue18
-Trainingloki1233
 Layj1
 MatthewJ07
 PedroPRB
