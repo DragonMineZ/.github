@@ -162,7 +162,6 @@ Astrocyle
 JLDK1310
 Napojeje
 dagmaer123
-temporal_chemist
 C0SMICM0CHI
 ShishikuraOsamu
 IAutumns
