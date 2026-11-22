@@ -1,0 +1,39 @@
+name: Beta testers sections
+
+on:
+  push:
+    branches: [main]
+    paths: [allowed_betatesters.txt]
+
+permissions:
+  contents: write
+
+concurrency: betatesters
+
+jobs:
+  check:
+    if: github.actor != 'dragonminez-ai[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Move names added under "# Auto-added" to the manual section
+        id: fix
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: python3 .github/scripts/betatesters_sections.py "$BEFORE"
+
+      - name: Commit the fix
+        if: steps.fix.outputs.moved != ''
+        env:
+          MOVED: ${{ steps.fix.outputs.moved }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qam "Move manually added beta testers above # Auto-added: $MOVED"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+          echo "::error file=allowed_betatesters.txt::Moved $MOVED to the manual section. Add names ABOVE the '# Auto-added' line, the bot owns everything below it."
+          exit 1
